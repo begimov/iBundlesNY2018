@@ -5,11 +5,11 @@
         <div class="row">
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
         </div>
-        <p class="header-title lead">ОТКРЫТЫЙ МАСТЕР-КЛАСС</p>
-        <h1 class="display-3 d-none d-sm-block text-uppercase"><strong>ТИПИЧНЫЕ ОШИБКИ ВНЕДРЕНИЯ ПРОЦЕССОВ</strong></h1>
-        <h1 class="display-5 d-sm-none text-uppercase">ТИПИЧНЫЕ ОШИБКИ ВНЕДРЕНИЯ ПРОЦЕССОВ</h1>
-        <p class="lead"><span class="badge badge-primary">Online</span></p>
-        <p class="lead"><span class="badge badge-light">5 апреля. 11 часов по Москве</span></p>
+        <h3 class="header-title text-uppercase">Акция от iTeam</h3>
+        <h1 class="display-3 d-none d-sm-block text-uppercase"><strong>Вперед в будущее</strong></h1>
+        <h1 class="display-5 d-sm-none text-uppercase">Вперед в будущее</h1>
+        <h3>Комплект из трех мастер-классов</h3>
+        <!-- <p class="lead"><span class="badge badge-light">5 апреля. 11 часов по Москве</span></p> -->
         <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a> -->
       </div>
     </div>
