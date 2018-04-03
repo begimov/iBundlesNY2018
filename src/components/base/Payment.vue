@@ -15,7 +15,7 @@
                 
     <!-- Modal -->
     <div class="modal fade" :id="'payment' + campaign_token" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">{{ product_name }}</h5>
@@ -52,6 +52,15 @@
                       <a href="#" class="btn btn-danger btn-lg" id="grFormBtn" v-else @click.prevent="buy">КУПИТЬ</a>
                   </form>
                   <p class="help-block alert-danger" id="grFormHelpBlock" v-if="error">{{ error }}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <div class="card-body p-2">
+                    <p class="m-0"><strong>Вы&nbsp;выбрали &laquo;{{ product_name }}&raquo;, к&nbsp;оплате&nbsp;&mdash; {{ WMI_PAYMENT_AMOUNT }} руб.,</strong> сейчас вы&nbsp;будете перенаправлены на&nbsp;страницу платежного агрегатора WalletOne.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
