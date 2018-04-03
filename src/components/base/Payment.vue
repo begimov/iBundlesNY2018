@@ -53,7 +53,7 @@
               <div class="col">
                 <div class="card bg-dark text-white">
                   <div class="card-body p-2">
-                    <p class="m-0 lead"><strong>Вы&nbsp;выбрали &laquo;{{ product_name }}&raquo;, к&nbsp;оплате&nbsp;&mdash; {{ WMI_PAYMENT_AMOUNT }} руб.,</strong> сейчас вы&nbsp;будете перенаправлены на&nbsp;страницу платежного агрегатора WalletOne.</p>
+                    <p class="m-0 lead"><strong>Вы&nbsp;выбрали {{ product_name }}, к&nbsp;оплате&nbsp;&mdash; {{ WMI_PAYMENT_AMOUNT }} руб.,</strong> сейчас вы&nbsp;будете перенаправлены на&nbsp;страницу платежного агрегатора WalletOne.</p>
                   </div>
                 </div>
               </div>

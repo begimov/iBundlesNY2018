@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="jumbotron jumbotron-fluid text-white">
+    <div class="jumbotron jumbotron-fluid text-white mb-0">
       <div class="container">
         <div class="row">
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
@@ -13,22 +13,45 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row last-row" style="margin-top:30px">
-        <div class="col-md-4"><img src="https://iteam.ru/img/V2/rm_bg.jpg" class="img-fluid"></div>
-        <div class="col-md-8">
+    <div class="container-fluid mb-0" style="margin-top: -20px;">
+      <div class="row">
+        <div class="col-md-4 p-0"><img src="https://iteam.ru/img/V2/rm_bg.jpg" class="img-fluid" style="margin-left: -10px;"></div>
+        <div class="col-md-8 py-5 align-self-center">
           <h2>Компания iTeam и Александр Кочнев</h2>
-          <p>представляют вам комплект из трех материалов, которые помогут вывести вашу компанию в будущее:</p>
-          <p>1</p>
-          <p>2</p>
-          <p>3</p>
+          <p class="lead">представляют вам комплект из трех материалов, которые помогут вывести вашу компанию в будущее:</p>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 p-1">
+              <div class="card">
+                <div class="card-body p-2">
+                  <h5>Бизнес-процессы 1</h5>
+                  <p class="m-0">Описание</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+              <div class="card">
+                <div class="card-body p-2">
+                  <h5>Бизнес-процессы 2</h5>
+                  <p class="m-0">Описание</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 p-1">
+              <div class="card">
+                <div class="card-body p-2">
+                  <h5>Бизнес-процессы 3</h5>
+                  <p class="m-0">Описание</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid bg-dark" style="margin-top: -20px;">
       <div class="container text-light">
-        <div class="row">
+        <div class="row py-3">
           <div class="col text-center">
             <h2>КОМПЛЕКТ ИЗ 3-X КУРСОВ</h2>
           </div>
@@ -140,9 +163,7 @@
         <div class="col-xl-4 col-md-6 mt-2">
           <div class="card border-danger card-accent h-100">
             <div class="card-header bg-danger text-light">
-              <span class="lead text-uppercase"><strong>ПАКЕТ &laquo;Бизнес-процессы&raquo;</strong></span><br>
-              <!-- <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;ЛАЙТ&raquo;</span><br>
-              <span class="lead"><strong>+</strong></span> -->
+              <span class="lead text-uppercase"><strong>&laquo;Бизнес-процессы&raquo;</strong></span><br>
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Видеозаписи мастер-классов.</li>
@@ -157,8 +178,8 @@
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/bundles/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/bundles/processes"
-                campaign_token="pu9s"
-                product_name="ПАКЕТ «БИЗНЕС-ПРОЦЕССЫ»"
+                campaign_token="1"
+                product_name="«БИЗНЕС-ПРОЦЕССЫ»"
               />
             </div>
           </div>
@@ -256,6 +277,12 @@
 <script src="./home.js"></script>
 
 <style scoped>
+.row {
+    margin: 0px;
+}
+.row:before, row:after {
+    display: none;
+}
 .header-title {
   margin-top: 30px;
 }
