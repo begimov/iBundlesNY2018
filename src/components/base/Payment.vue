@@ -54,13 +54,34 @@
                   <p class="help-block alert-danger" id="grFormHelpBlock" v-if="error">{{ error }}</p>
               </div>
             </div>
-            <div class="row">
+            <div class="row mt-3">
               <div class="col">
-                <div class="card">
+                <div class="card bg-dark text-white">
                   <div class="card-body p-2">
-                    <p class="m-0"><strong>Вы&nbsp;выбрали &laquo;{{ product_name }}&raquo;, к&nbsp;оплате&nbsp;&mdash; {{ WMI_PAYMENT_AMOUNT }} руб.,</strong> сейчас вы&nbsp;будете перенаправлены на&nbsp;страницу платежного агрегатора WalletOne.</p>
+                    <p class="m-0 lead"><strong>Вы&nbsp;выбрали &laquo;{{ product_name }}&raquo;, к&nbsp;оплате&nbsp;&mdash; {{ WMI_PAYMENT_AMOUNT }} руб.,</strong> сейчас вы&nbsp;будете перенаправлены на&nbsp;страницу платежного агрегатора WalletOne.</p>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div class="row mt-3 text-left">
+              <div class="col">
+                <div class="card">
+                  <div class="card-body p-3">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <p class="m-0">Платежный сервис Wallet One, используемый для оплаты наших продуктов, лицензирован надзорным органом в&nbsp;каждой стране присутствия, а&nbsp;значит, полностью безопасен.</p>
+                      </div>
+                      <div class="col-md-6">
+                        <p class="m-0">Wallet One использует стандарт безопасности PCI&nbsp;DSS, SSL-протокол, системы безопасности Verified by&nbsp;Visa и&nbsp;MasterCard SecureCode.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col">
+                <a href="https://www.walletone.com/ru/merchant/security/" target="_blank">Подробнее здесь...</a>
               </div>
             </div>
           </div>
