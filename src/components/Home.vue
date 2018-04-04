@@ -178,7 +178,7 @@
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/bundles/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/bundles/processes"
-                campaign_token="1"
+                campaign_token="nll1c"
                 product_name="«БИЗНЕС-ПРОЦЕССЫ»"
               />
             </div>
