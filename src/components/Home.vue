@@ -15,32 +15,32 @@
 
     <div class="container-fluid mb-0" style="margin-top: -20px;">
       <div class="row">
-        <div class="col-md-4 p-0"><img src="https://iteam.ru/img/V2/rm_bg.jpg" class="img-fluid" style="margin-left: -10px;"></div>
-        <div class="col-md-8 py-5 align-self-center">
+        <div class="col-lg-4 p-0"><img src="https://iteam.ru/img/V2/rm_bg.jpg" class="img-fluid" style="margin-left: -10px;"></div>
+        <div class="col-lg-8 py-5 align-self-center">
           <h2>Компания iTeam и Александр Кочнев</h2>
           <p class="lead">представляют вам комплект из трех материалов, которые помогут вывести вашу компанию в будущее:</p>
           <div class="row">
-            <div class="col-lg-4 col-md-6 p-1">
-              <div class="card">
-                <div class="card-body p-2">
-                  <h5>Бизнес-процессы 1</h5>
-                  <p class="m-0">Описание</p>
+            <div class="col-md-4 col-sm-6 p-1">
+              <div class="card h-100">
+                <div class="card-body p-2 text-center">
+                  <img src="https://iteam.ru/promo/2018/assets/img/mk4.jpg" width="60%" class="img-fluid">
+                  <p class="m-0 font-weight-bold">&laquo;Как создать систему управления процессами за&nbsp;4&nbsp;месяца&raquo;</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 p-1">
-              <div class="card">
-                <div class="card-body p-2">
-                  <h5>Бизнес-процессы 2</h5>
-                  <p class="m-0">Описание</p>
+            <div class="col-md-4 col-sm-6 p-1">
+              <div class="card h-100">
+                <div class="card-body p-2 text-center">
+                  <img src="https://iteam.ru/promo/2018/assets/img/mk5.jpg" width="60%" class="img-fluid">
+                  <p class="m-0 font-weight-bold">&laquo;Как улучшить бизнес-процессы компании&raquo;</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-12 p-1">
-              <div class="card">
-                <div class="card-body p-2">
-                  <h5>Бизнес-процессы 3</h5>
-                  <p class="m-0">Описание</p>
+            <div class="col-md-4 col-sm-12 p-1">
+              <div class="card h-100">
+                <div class="card-body p-2 text-center">
+                  <img src="https://iteam.ru/promo/2018/assets/img/mk6.jpg" width="63%" class="img-fluid">
+                  <p class="m-0 font-weight-bold">&laquo;Как найти и&nbsp;укрепить слабое звено в&nbsp;цепи процессов&raquo;</p>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@
 
       <div class="container">
         <div class="row last-row">
-          <div class="col">
+          <div class="col p-0">
             <ul class="nav nav-tabs nav-tabs-links justify-content-center" id="myTab" role="tablist">
               <li class="nav-item">
                 <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true"><h2>1</h2></a>
@@ -79,7 +79,7 @@
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-3"><img src="https://iteam.ru/promo/2018/assets/img/mk4.jpg" class="img-fluid"></div>
-                      <div class="col-md-9">
+                      <div class="col-md-9 p-0">
                         <p class="card-text">
                           Каждая компания состоит из&nbsp;процессов, преобразующих ресурсы в&nbsp;результаты, востребованные клиентами. Но&nbsp;лишь немногие компании добиваются повышения эффективности с&nbsp;помощью процессного подхода к&nbsp;управлению. Мы&nbsp;даем ключ к&nbsp;овладению мастерством управления процессами.
                         </p>
@@ -103,7 +103,7 @@
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-3"><img src="https://iteam.ru/promo/2018/assets/img/mk5.jpg" class="img-fluid"></div>
-                      <div class="col-md-9">
+                      <div class="col-md-9 p-0">
                         <p class="card-text">
                           Всё, что производит компания, все её&nbsp;продукты и&nbsp;услуги&nbsp;&mdash; это результаты бизнес-процессов, то&nbsp;есть последовательность определенных действий с&nbsp;запланированным итогом. Понятная пошаговая система. Подходит для любого бизнеса. Метод внедрения бизнес-процессов, доступный для понимания любого менеджера.
                         </p>
@@ -126,7 +126,7 @@
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-3"><img src="https://iteam.ru/promo/2018/assets/img/mk6.jpg" class="img-fluid"></div>
-                      <div class="col-md-9">
+                      <div class="col-md-9 p-0">
                         <p class="card-text">
                           Вы&nbsp;изучите и&nbsp;научитесь использовать базовые понятия и&nbsp;методики, применяемыми при построении бизнес-процессов: измерение вариабельности (изменчивости) процессов, нахождении слабого звена в&nbsp;цепи процессов, оценки уровня зрелости процессов.
                         </p>
@@ -154,13 +154,13 @@
 
     <div class="container">
       <div class="row text-center" ref="join-block">
-        <div class="col" style="margin-top:30px">
+        <div class="col">
           <h2>Стоимость</h2>
         </div>
       </div>
       <div class="row last-row text-center justify-content-center">
 
-        <div class="col-xl-4 col-md-6 mt-2">
+        <div class="col-xl-6 col-md-8 mt-2">
           <div class="card border-danger card-accent h-100">
             <div class="card-header bg-danger text-light">
               <span class="lead text-uppercase"><strong>&laquo;Бизнес-процессы&raquo;</strong></span><br>
