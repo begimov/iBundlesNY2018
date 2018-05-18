@@ -2,23 +2,36 @@
   <div>
     <div class="jumbotron jumbotron-fluid text-white mb-0">
       <div class="container">
-        <div class="row">
+        <!-- <div class="row">
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
-        </div>
-        <h3 class="header-title text-uppercase">Акция от iTeam</h3>
-        <h1 class="display-3 d-none d-sm-block text-uppercase"><strong>Вперед в будущее</strong></h1>
-        <h1 class="display-5 d-sm-none text-uppercase">Вперед в будущее</h1>
-        <h3>Комплект из трех мастер-классов</h3>
-        <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">КУПИТЬ</a>
+        </div> -->
+        <h1 class="header-title mb-4">Внедрите бизнес-процессы в вашей компании<br>за 4 месяца по методике Русский Менеджмент</h1>
+        <ul class="mb-4 check-mark">
+          <p><h4><span class="text-danger">&#10004;</span> Комплект из 3 мастер-классов и 9 методических материалов</h4></p>
+          <p><h4><span class="text-danger">&#10004;</span> Внедрено в 20000 российских компаний</h4></p>
+          <p><h4><span class="text-danger">&#10004;</span> Более 15 лет опыта на российском рынке</h4></p>
+        </ul>
+        <!-- <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Купить со скидкой 92%</strong></h1>
+        <h1 class="display-5 d-sm-none text-uppercase"></h1> -->
+        <h3 class="mb-4"><del>12000 рублей</del> <span class="badge badge-light">990-</span></h3>
+        <Payment
+                WMI_PAYMENT_AMOUNT="990"
+                WMI_DESCRIPTION="iTeam"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/bundles/processes"
+                WMI_FAIL_URL="https://iteam.ru/promo/bundles/processes"
+                campaign_token="nll1c"
+                product_name="КОМПЛЕКТ «БИЗНЕС-ПРОЦЕССЫ»"
+              />
+        <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Купить со скидкой 92%</a> -->
       </div>
     </div>
 
     <div class="container-fluid mb-0" style="margin-top: -20px;">
       <div class="row">
-        <div class="col-lg-4 p-0"><img src="https://iteam.ru/img/V2/rm_bg.jpg" class="img-fluid" style="margin-left: -10px;"></div>
-        <div class="col-lg-8 py-5 align-self-center">
-          <h2>Компания iTeam и Александр Кочнев</h2>
-          <p class="lead">представляют вам комплект из трех материалов, которые помогут вывести вашу компанию в будущее:</p>
+        <div class="col-lg-3 p-0 d-none d-lg-block"><img src="https://iteam.ru/img/V2/rm_bg.jpg" class="img-fluid" style="margin-left: -10px;"></div>
+        <div class="col-lg-9 py-5 align-self-center">
+          <!-- <h2>Компания iTeam и Александр Кочнев</h2>
+          <p class="lead">представляют вам комплект из трех материалов, которые помогут вывести вашу компанию в будущее:</p> -->
           <div class="row">
             <div class="col-md-4 col-sm-6 p-1">
               <div class="card h-100">
@@ -155,7 +168,7 @@
     <div class="container">
       <div class="row text-center" ref="join-block">
         <div class="col">
-          <h2>Стоимость</h2>
+          <h2>Получить со скидкой 92%</h2>
         </div>
       </div>
       <div class="row last-row text-center justify-content-center">
@@ -163,23 +176,24 @@
         <div class="col-xl-6 col-md-8 mt-2">
           <div class="card border-danger card-accent h-100">
             <div class="card-header bg-danger text-light">
-              <span class="lead text-uppercase"><strong>&laquo;Бизнес-процессы&raquo;</strong></span><br>
+              <span class="lead text-uppercase"><strong>КОМПЛЕКТ &laquo;Бизнес-процессы&raquo;</strong></span><br>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Видеозаписи мастер-классов.</li>
+              <li class="list-group-item">Видеозаписи 3 мастер-классов.</li>
               <li class="list-group-item">Презентационные материалы.</li>
               <li class="list-group-item">Методические материалы, шаблоны, образцы документов.</li>
             </ul>
             <div class="card-body"></div>
             <div class="card-footer bg-white border-top-0 pb-3">
-              <h2><span class="badge badge-primary">1&thinsp;990&nbsp;&#8381;</span></h2>
+              <h3 class="mb-4"><del>12000 рублей</del></h3>
+              <h2><span class="badge badge-primary">990&nbsp;&#8381;</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="1990"
+                WMI_PAYMENT_AMOUNT="990"
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/bundles/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/bundles/processes"
                 campaign_token="nll1c"
-                product_name="«БИЗНЕС-ПРОЦЕССЫ»"
+                product_name="КОМПЛЕКТ «БИЗНЕС-ПРОЦЕССЫ»"
               />
             </div>
           </div>
@@ -277,6 +291,10 @@
 <script src="./home.js"></script>
 
 <style scoped>
+.check-mark {
+    color:#fff;
+    font-family: sans-serif;
+}
 .row {
     margin: 0px;
 }

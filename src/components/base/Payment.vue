@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text-dark">
     <form accept-charset="UTF-8" method="POST" :id="'paymentForm' + campaign_token" action="https://wl.walletone.com/checkout/checkout/Index">
       <input type="hidden" name="WMI_MERCHANT_ID" v-model="payment.WMI_MERCHANT_ID"/>
       <input type="hidden" name="WMI_PAYMENT_AMOUNT" v-model="payment.WMI_PAYMENT_AMOUNT"/>
@@ -25,7 +25,7 @@
           </div>
           <div class="modal-body">
             <div class="row">
-              <div class="col">
+              <div class="col text-center">
                   <form action="/grform/payment" method="get" id="grForm">
                       <div class="row justify-content-center">
                           <div class="col-lg-8">
