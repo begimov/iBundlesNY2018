@@ -186,7 +186,7 @@
             <div class="card-body"></div>
             <div class="card-footer bg-white border-top-0 pb-3">
               <h3 class="mb-4"><del>12000 рублей</del></h3>
-              <h2><span class="badge badge-primary">990&nbsp;&#8381;</span></h2>
+              <h2><span class="badge badge-primary">990-</span></h2>
               <Payment
                 WMI_PAYMENT_AMOUNT="990"
                 WMI_DESCRIPTION="iTeam"
