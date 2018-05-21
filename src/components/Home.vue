@@ -2,7 +2,7 @@
   <div @mouseleave="mouseLeave">
     <div class="jumbotron jumbotron-fluid text-white mb-0">
       <div class="container">
-        <Magnet :magnet="magnet"/>
+        <Magnet :magnet="magnet" redirect="true"/>
         <!-- <div class="row">
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
         </div> -->

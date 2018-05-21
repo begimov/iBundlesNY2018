@@ -37,7 +37,7 @@ export default {
                 if (response.data.status === 'ok') {
                     this.msg = response.data.msg
                     if (this.redirect === 'true') {
-                        window.location.href = "https://iteam.ru/promo/processes/programm.pdf";
+                        window.location.href = "https://iteam.ru/promo/subscribe/book_offer/";
                     }
                     // this.$router.push({ path: 'purchase' })
                     // location.reload()
@@ -58,7 +58,6 @@ export default {
     watch: {
         magnet: {
             handler: function() {
-                console.log('sdsd')
                 $('#magnet' + this.campaign_token).modal('show')
             }
         }
