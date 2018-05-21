@@ -32,8 +32,11 @@ export default {
             date.setHours(date.getHours() + 5)
             return months[date.getMonth()] + ' ' + date.getDate() + ', 2018 ' + date.getHours() + ':' + date.getMinutes() + ':00'
         },
-        mouseLeave() {
-            this.magnet = true
+        mouseLeave(e) {
+            console.log(e)
+            if (e.relatedTarget == null) {
+                this.magnet = true
+            }
         }
     },
     mounted() {

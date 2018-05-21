@@ -30,14 +30,14 @@
                       <div class="row justify-content-center">
                           <div class="col-lg-8">
                             <div class="form-group form-group-lg">
-                              <input type="text" class="form-control" name="name" placeholder="Имя" v-model="modal.name">
+                              <input autocomplete="off" type="text" class="form-control" name="name" placeholder="Имя" v-model="modal.name">
                             </div>
                           </div>
                       </div>
                       <div class="row justify-content-center">
                           <div class="col-lg-8">
                             <div class="form-group form-group-lg">
-                              <input type="email" class="form-control" name="email" placeholder="Эл.адрес" v-model="modal.email">
+                              <input autocomplete="off" type="email" class="form-control" name="email" placeholder="Эл.адрес" v-model="modal.email">
                             </div>
                           </div>
                           <input type="hidden" name="campaign_token" v-model="modal.campaign_token" />
