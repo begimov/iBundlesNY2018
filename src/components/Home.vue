@@ -11,6 +11,7 @@
           <p><h4><span class="text-danger">&#10004;</span> Внедрено в 20000 российских компаний</h4></p>
           <p><h4><span class="text-danger">&#10004;</span> Более 15 лет опыта на российском рынке</h4></p>
         </ul>
+        <p>До конца акции<br><Countdown deadline="August 22, 2022"></Countdown></p>
         <!-- <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Купить со скидкой 92%</strong></h1>
         <h1 class="display-5 d-sm-none text-uppercase"></h1> -->
         <h3 class="mb-4"><del>12000 рублей</del> <span class="badge badge-light">990-</span></h3>

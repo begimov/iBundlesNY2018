@@ -1,13 +1,15 @@
 import Payment from '@/components/base/Payment.vue'
 import Ytplayer from '@/components/base/Ytplayer.vue'
 import Grform from '@/components/base/Grform.vue'
+import Countdown from '@/components/base/Countdown.vue'
 
 export default {
     name: 'Home',
     components: {
         Payment,
         Ytplayer,
-        Grform
+        Grform,
+        Countdown
     },
     data() {
         return {
