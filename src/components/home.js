@@ -42,6 +42,9 @@ export default {
             let date = (new Date())
             date.setHours(date.getHours() + 5)
             return months[date.getMonth()] + ' ' + date.getDate() + ', 2018 ' + date.getHours() + ':' + date.getMinutes() + ':00'
+        },
+        mouseLeave() {
+            console.log('DDDD')
         }
     },
     mounted() {

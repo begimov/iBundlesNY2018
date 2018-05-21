@@ -6,7 +6,7 @@
         </li>
         <li class="bg-primary p-2 count-bg">
             <p class="digit">{{ hours | twoDigits }}</p>
-            <p class="text">{{ hours > 1 ? 'ч.' : 'ч.' }}</p>
+            <p class="text">{{ hours > 1 ? 'часа' : 'часа' }}</p>
         </li>
         <li class="bg-primary p-2 count-bg">
             <p class="digit">{{ minutes | twoDigits }}</p>
@@ -14,7 +14,7 @@
         </li>
         <li class="bg-primary p-2 count-bg">
             <p class="digit">{{ seconds | twoDigits }}</p>
-            <p class="text">с.</p>
+            <p class="text">сек.</p>
         </li>
     </ul>
 </template>

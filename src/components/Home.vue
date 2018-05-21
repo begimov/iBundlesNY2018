@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div @mouseleave="mouseLeave">
     <div class="jumbotron jumbotron-fluid text-white mb-0">
       <div class="container">
         <!-- <div class="row">
