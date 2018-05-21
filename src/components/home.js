@@ -2,6 +2,7 @@ import Payment from '@/components/base/Payment.vue'
 import Ytplayer from '@/components/base/Ytplayer.vue'
 import Grform from '@/components/base/Grform.vue'
 import Countdown from '@/components/base/Countdown.vue'
+import Magnet from '@/components/base/Magnet.vue'
 
 export default {
     name: 'Home',
@@ -9,24 +10,12 @@ export default {
         Payment,
         Ytplayer,
         Grform,
-        Countdown
+        Countdown,
+        Magnet
     },
     data() {
         return {
-            // words: [
-            //     ['Компания малоуправляема', 1000],
-            //     ['Нечетко определены области ответственности', 500],
-            //     ['Много совещаний, низкая результативность', 250],
-            //     ['Решения не доводятся до результатов', 125],
-            //     ['Планы не выполняются', 60],
-            //     ['Рабочие процессы плохо организованы', 30],
-            //     ['Сотрудники не мотивированы работать на результат', 15],
-            //     ['Исполнители безответственны', 7],
-            //     ['Ухудшается качество продукции, услуг', 3],
-            //     ['Утрачивается лояльность клиентов', 2],
-            //     ['Снижается прибыль', 1],
-            //     ['Развитие компании замедлено', 1],
-            // ],
+            magnet: false
         }
     },
     methods: {
@@ -44,7 +33,7 @@ export default {
             return months[date.getMonth()] + ' ' + date.getDate() + ', 2018 ' + date.getHours() + ':' + date.getMinutes() + ':00'
         },
         mouseLeave() {
-            console.log('DDDD')
+            this.magnet = true
         }
     },
     mounted() {
