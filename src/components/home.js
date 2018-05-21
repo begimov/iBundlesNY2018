@@ -34,6 +34,14 @@ export default {
             var element = this.$refs[refName];
             var top = element.offsetTop;
             window.scrollTo(0, top);
+        },
+        deadline() {
+            const months = ["January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"
+            ]
+            let date = (new Date())
+            date.setHours(date.getHours() + 5)
+            return months[date.getMonth()] + ' ' + date.getDate() + ', 2018 ' + date.getHours() + ':' + date.getMinutes() + ':00'
         }
     },
     mounted() {

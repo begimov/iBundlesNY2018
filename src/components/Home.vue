@@ -11,19 +11,27 @@
           <p><h4><span class="text-danger">&#10004;</span> Внедрено в 20000 российских компаний</h4></p>
           <p><h4><span class="text-danger">&#10004;</span> Более 15 лет опыта на российском рынке</h4></p>
         </ul>
-        <p>До конца акции<br><Countdown deadline="August 22, 2022"></Countdown></p>
+        
         <!-- <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Купить со скидкой 92%</strong></h1>
         <h1 class="display-5 d-sm-none text-uppercase"></h1> -->
-        <h3 class="mb-4"><del>12000 рублей</del> <span class="badge badge-light">990-</span></h3>
-        <Payment
-                WMI_PAYMENT_AMOUNT="990"
-                WMI_DESCRIPTION="iTeam"
-                WMI_SUCCESS_URL="https://iteam.ru/promo/bundles/processes"
-                WMI_FAIL_URL="https://iteam.ru/promo/bundles/processes"
-                campaign_token="nll1c"
-                product_name="КОМПЛЕКТ «БИЗНЕС-ПРОЦЕССЫ»"
-              />
-        <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Купить со скидкой 92%</a> -->
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <h3 class="mb-4"><del>12000 рублей</del> <span class="badge badge-light">990-</span></h3>
+            <Payment
+                    WMI_PAYMENT_AMOUNT="990"
+                    WMI_DESCRIPTION="iTeam"
+                    WMI_SUCCESS_URL="https://iteam.ru/promo/bundles/processes"
+                    WMI_FAIL_URL="https://iteam.ru/promo/bundles/processes"
+                    campaign_token="nll1c"
+                    product_name="КОМПЛЕКТ «БИЗНЕС-ПРОЦЕССЫ»"
+                  />
+            <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Купить со скидкой 92%</a> -->
+          </div>
+          <div class="col-md-6">
+            <p class="lead font-weight-bold">До конца акции</p>
+            <p><Countdown :deadline="deadline()"></Countdown></p>
+          </div>
+        </div>
       </div>
     </div>
 

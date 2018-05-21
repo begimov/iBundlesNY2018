@@ -1,18 +1,18 @@
 <template>
     <ul class="vuejs-countdown">
-        <li v-if="days > 0" class="bg-primary p-2">
+        <li v-if="days > 0" class="bg-primary p-2 count-bg">
             <p class="digit">{{ days | twoDigits }}</p>
             <p class="text">{{ days > 1 ? 'д.' : 'д.' }}</p>
         </li>
-        <li class="bg-dark p-2">
+        <li class="bg-primary p-2 count-bg">
             <p class="digit">{{ hours | twoDigits }}</p>
             <p class="text">{{ hours > 1 ? 'ч.' : 'ч.' }}</p>
         </li>
-        <li class="bg-dark p-2">
+        <li class="bg-primary p-2 count-bg">
             <p class="digit">{{ minutes | twoDigits }}</p>
             <p class="text">мин.</p>
         </li>
-        <li class="bg-dark p-2">
+        <li class="bg-primary p-2 count-bg">
             <p class="digit">{{ seconds | twoDigits }}</p>
             <p class="text">с.</p>
         </li>
@@ -46,7 +46,7 @@ export default {
             throw new Error("Missing props 'deadline' or 'end'");
         }
         let endTime = this.deadline ? this.deadline : this.end;
-        this.date = Math.trunc(Date.parse(endTime.replace(/-/g, "/")) / 1000);
+        this.date = Math.trunc(Date.parse(endTime) / 1000);
         if (!this.date) {
             throw new Error("Invalid props value, correct the 'deadline' or 'end'");
         }
@@ -92,6 +92,9 @@ export default {
 }
 </script>
 <style>
+.count-bg {
+border-radius: 10px;
+}
 .vuejs-countdown {
   padding: 0;
   margin: 0;
