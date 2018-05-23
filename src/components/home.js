@@ -33,7 +33,6 @@ export default {
             return months[date.getMonth()] + ' ' + date.getDate() + ', 2018 ' + date.getHours() + ':' + date.getMinutes() + ':00'
         },
         mouseLeave(e) {
-            console.log(e)
             if (e.relatedTarget == null) {
                 this.magnet = true
             }
