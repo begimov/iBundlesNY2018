@@ -8,9 +8,9 @@
         </div> -->
         <h1 class="header-title mb-4">Внедрите бизнес-процессы в вашей компании<br>за 4 месяца по методике Русский Менеджмент</h1>
         <ul class="mb-4 check-mark">
-          <p><h4><span class="text-danger">&#10004;</span> Комплект из 3 мастер-классов и 9 методических материалов</h4></p>
-          <p><h4><span class="text-danger">&#10004;</span> Внедрено в 20000 российских компаний</h4></p>
-          <p><h4><span class="text-danger">&#10004;</span> Более 15 лет опыта на российском рынке</h4></p>
+          <h4><span class="text-danger">&#10004;</span> Комплект из 3 мастер-классов и 9 методических материалов</h4>
+          <h4><span class="text-danger">&#10004;</span> Внедрено в 20000 российских компаний</h4>
+          <h4><span class="text-danger">&#10004;</span> Более 15 лет опыта на российском рынке</h4>
         </ul>
         
         <!-- <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Купить со скидкой 92%</strong></h1>
@@ -62,8 +62,8 @@
             <div class="col-md-4 col-sm-12 p-1">
               <div class="card h-100">
                 <div class="card-body p-2 text-center">
-                  <img src="https://iteam.ru/promo/2018/assets/img/mk6.jpg" width="63%" class="img-fluid">
-                  <p class="m-0 font-weight-bold">&laquo;Как найти и&nbsp;укрепить слабое звено в&nbsp;цепи процессов&raquo;</p>
+                  <img src="https://iteam.ru/img/praktikum_vpp.png" width="63%" class="img-fluid">
+                  <p class="m-0 font-weight-bold">&laquo;Практикум по внедрению процессного подхода&raquo;</p>
                 </div>
               </div>
             </div>
@@ -145,22 +145,26 @@
               </div>
               <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
                 <div class="card">
-                  <h5 class="card-header bg-white">Мастер-класс &laquo;Как найти и&nbsp;укрепить слабое звено в&nbsp;цепи процессов&raquo;</h5>
+                  <h5 class="card-header bg-white">Мастер-класс &laquo;Практикум по внедрению процессного подхода&raquo;</h5>
                   <div class="card-body">
                     <div class="row">
-                      <div class="col-md-3"><img src="https://iteam.ru/promo/2018/assets/img/mk6.jpg" class="img-fluid"></div>
+                      <div class="col-md-3">
+                        <img src="https://iteam.ru/img/praktikum_vpp.png" class="img-fluid">
+                      </div>
                       <div class="col-md-9 p-0">
                         <p class="card-text">
-                          Вы&nbsp;изучите и&nbsp;научитесь использовать базовые понятия и&nbsp;методики, применяемыми при построении бизнес-процессов: измерение вариабельности (изменчивости) процессов, нахождении слабого звена в&nbsp;цепи процессов, оценки уровня зрелости процессов.
+                          Внедряете бизнес-процессы?
+                        <p class="card-text">
+                          Столкнулись с проблемами?
+                        </p>
+                        <p class="card-text">
+                          Это случается в 90% компаний. Есть ошибки, которые совершают практически все. Именно поэтому, мы подготовили для вас мастер-класс, где подробно на конкретных примерах разбираются типичные ситуации, которые происходят при создании системы бизнес- процессов.
                         </p>
                         <p class="card-text">
                           <strong>Дополнительные материалы:</strong>
                           <ul>
-                            <li>Презентация мастер-класса &laquo;Совершенствование бизнес-процессов и&nbsp;структур компании&raquo;.</li>
-                            <li>Определение слабого звена.</li>
-                            <li>Как найти слабое звено в&nbsp;бизнес-процессах.</li>
-                            <li>Практическое руководство по&nbsp;определению слабого звена.</li>
-                            <li>Шаблон для проведения голосования.</li>
+                            <li>Презентация мастер-класса.</li>
+                            <li>Видеозапись мастер-класса.</li>
                           </ul>
                         </p>
                       </div>
